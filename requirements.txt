@@ -1,4 +1,7 @@
-pywebview==5.3.2
-pandas>=2.0
-openpyxl>=3.1
-pyinstaller>=6.0
+openpyxl>=3.1.2
+reportlab>=4.0.0
+pytest>=8.0.0
+# Optional support for legacy .xls files:
+xlrd>=2.0.1
+# Optional Windows executable packaging:
+pyinstaller>=6.0.0
